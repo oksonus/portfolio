@@ -28,7 +28,6 @@ Data
   Features include:
   Income metrics
   Rent and mortgage values
-  Population counts
   Household characteristics
 
 Methodology
