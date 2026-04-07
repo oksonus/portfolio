@@ -25,17 +25,15 @@ A hybrid pipeline that bridges machine learning + generative AI:
 
 Data
   Source: Australian Bureau of Statistics (ABS)
-  Granularity: SA2 (Statistical Area Level 2)
   Features include:
   Income metrics
   Rent and mortgage values
-  Population counts
   Household characteristics
 
 Methodology
   1. Data Preparation
     Cleaned and transformed demographic features
-    Removed identifiers (e.g., SA2 codes)
+    Removed identifiers
     Selected relevant numeric features
   2. Feature Scaling
     Applied StandardScaler
