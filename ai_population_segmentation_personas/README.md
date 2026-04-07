@@ -1,7 +1,7 @@
 
 Overview
 
-This project builds a complete segmentation pipeline using Australian Bureau of Statistics (ABS) demographic data.
+This project builds a complete segmentation pipeline using demographic data sets.
 
 It combines:
 
@@ -24,7 +24,7 @@ A hybrid pipeline that bridges machine learning + generative AI:
   LLM generates natural language personas
 
 Data
-  Source: Australian Bureau of Statistics (ABS)
+  Source: demographic data sets
   Features include:
   Income metrics
   Rent and mortgage values
@@ -60,25 +60,13 @@ Example Output
   High rental burden
   Lower income levels
   Limited long-term financial stability
-Outputs
-1. Segmented Dataset
-  Table: workspace.gold.g0mergedB
-  Includes:
-  Original features
-  Assigned cluster
-2. Cluster Profiles
-  Table: workspace.gold.customer_persona_profile
-  Aggregated statistics per cluster
-3. MLflow Tracking
-  Model: KMeans
-  Parameters and artifacts logged for reproducibility
 
 Tech Stack
   Python (pandas, scikit-learn)
   Databricks / Spark
   MLflow (experiment tracking)
   Delta Lake (data storage)
-  LLM (Hugging Face / API) for persona generation
+  LLM for persona generation
 
 Business Value
   Enables targeted marketing strategies
