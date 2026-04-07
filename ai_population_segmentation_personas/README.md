@@ -60,25 +60,13 @@ Example Output
   High rental burden
   Lower income levels
   Limited long-term financial stability
-Outputs
-1. Segmented Dataset
-  Table: workspace.gold.g0mergedB
-  Includes:
-  Original features
-  Assigned cluster
-2. Cluster Profiles
-  Table: workspace.gold.customer_persona_profile
-  Aggregated statistics per cluster
-3. MLflow Tracking
-  Model: KMeans
-  Parameters and artifacts logged for reproducibility
 
 Tech Stack
   Python (pandas, scikit-learn)
   Databricks / Spark
   MLflow (experiment tracking)
   Delta Lake (data storage)
-  LLM (Hugging Face / API) for persona generation
+  LLM for persona generation
 
 Business Value
   Enables targeted marketing strategies
