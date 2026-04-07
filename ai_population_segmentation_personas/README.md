@@ -1,7 +1,7 @@
 
 Overview
 
-This project builds a complete segmentation pipeline using Australian Bureau of Statistics (ABS) demographic data.
+This project builds a complete segmentation pipeline using demographic data sets.
 
 It combines:
 
@@ -24,7 +24,7 @@ A hybrid pipeline that bridges machine learning + generative AI:
   LLM generates natural language personas
 
 Data
-  Source: Australian Bureau of Statistics (ABS)
+  Source: demographic data sets
   Features include:
   Income metrics
   Rent and mortgage values
