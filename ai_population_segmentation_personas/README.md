@@ -65,7 +65,7 @@ Tech Stack
   Python (pandas, scikit-learn)
   Databricks / Spark
   MLflow (experiment tracking)
-  Delta Lake (data storage)
+  Delta Lake (data storage/Medalion)
   LLM for persona generation
 
 Business Value
