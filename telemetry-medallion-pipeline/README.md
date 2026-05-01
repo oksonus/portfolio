@@ -24,5 +24,4 @@ Tech Stack
 •	Language: Python 3.x
 •	Data Processing: Pandas, NumPy (Scalable to PySpark)
 •	SQL Engine: SQLite (In-memory processing for window functions)
-•	Architecture: Medallion Lakehouse, Star Schema Modelling
-
+•	Architecture: Medallion Lakehouse, Star Schema 
