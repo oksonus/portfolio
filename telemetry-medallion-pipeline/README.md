@@ -1,6 +1,6 @@
 Cloud-Native Workforce Analytics Platform
 Overview
-This repository presents a sample data engineering design / case study for integrating operational data into a single analytics platform.
+This repository presents a sample data engineering design / case study / prototype for integrating operational data into a single analytics platform.
 It demonstrates how to combine multiple data sources, clean and standardise time-based data, and enable reliable reporting and analysis.
 This is a personal project based on a hypothetical scenario.
 Architecture
