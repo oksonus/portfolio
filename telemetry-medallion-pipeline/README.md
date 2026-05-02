@@ -4,7 +4,7 @@ This repository contains a production-ready technical blueprint and functional E
 The solution addresses a common industry challenge: synchronising high-frequency telephony metrics with "messy" time-series schedule data to enable accurate, multi-dimensional performance analysis.
 Architecture: Medallion Lakehouse
 The platform utilizes a Medallion Architecture to manage the data lifecycle, ensuring auditability and high-performance reporting. While implemented here in Python/SQLite for portability, the design is fully optimized for Enterprise Lakehouse environments (e.g., Databricks/Delta Lake):
-•	Bronze (Raw): Immutable landing zone for REST API payloads and flat files.
+•	Bronze (Raw): Immutable landing zone for API payloads and flat files.
 •	Silver (Cleansed): Data standardisation, identity resolution, and the application of custom business logic.
 •	Gold (Curated): Business-ready Star Schema with conformed dimensions and historical snapshots.
 Key Engineering Innovations
