@@ -5,6 +5,8 @@ This project builds a complete segmentation pipeline using demographic data sets
 
 It combines:
 
+This is demographic and socio-economic data describing different geographic areas, including population size, age structure, household size, income levels, and housing costs such as rent and mortgage payments. The data was processed using Databricks following a Medallion architecture. Transformation steps are omitted here but can be made available on request.
+
 Unsupervised learning (KMeans) to identify population segments
 Statistical profiling to understand segment characteristics
 Large Language Models (LLMs) to translate clusters into business-friendly personas
