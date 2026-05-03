@@ -1,7 +1,7 @@
 
 #  AI-Driven Demographic Segmentation Pipeline
 
-An end-to-end data science project bridging **Unsupervised Learning** and **Generative AI** to transform abstract demographic data into actionable business personas.
+An end-to-end data science project bridging **Unsupervised Learning** and **Generative AI** to transform abstract demographic data into actionable business personas. The results are available in outcomes
 
 ## 📖 Overview
 This project builds a complete segmentation pipeline using demographic datasets. It combines demographic and socio-economic data—including population size, age structure, household size, income levels, and housing costs—to identify and interpret regional trends.
