@@ -8,8 +8,6 @@ Senior Data Scientist and AI specialist with 10+ years of experience delivering 
 
 ## 🗂️ Projects
 
-## 🗂️ Projects
-
 | Project | Description | Tech |
 |--------|------------|------|
 | [AI Demographic Segmentation & Personas](./ai-persona-segmentation) | Clustering + GenAI pipeline for persona generation | Python, KMeans, LLM, Databricks, MLflow |
