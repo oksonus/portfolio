@@ -3,8 +3,6 @@
 
 An end-to-end data science project bridging **Unsupervised Learning** and **Generative AI** to transform abstract demographic data into actionable business personas. The results are available in outcomes
 
-## Business Value
-
 ##  Overview
 This project builds a complete segmentation pipeline using demographic datasets. It combines demographic and socio-economic data—including population size, age structure, household size, income levels, and housing costs—to identify and interpret regional trends.
 
@@ -51,32 +49,4 @@ To comply with data privacy standards and protect proprietary logic, certain ele
 *   **Data Access:** Underlying datasets are abstracted to prevent exposure of sensitive records.
 *   **Execution:** This repository is intended as an ** showcase** of methodology and architecture. Due to the removal of specific credentials and sensitive configurations, the code is not "plug-and-play" ready.
 
-*   graph TD
-    subgraph Data_Engineering [1. Data Prep & Medallion Architecture]
-        A[Raw Demographic Data] --> B[Bronze: Ingestion]
-        B --> C[Silver: Cleaned & Standardized]
-        C --> D[Gold: Analysis-Ready Aggregates]
-    end
-
-    subgraph ML_Workflow [2. Machine Learning Workflow]
-        D --> E[Feature Scaling]
-        E --> F[K-Means Clustering]
-        F --> G[Statistical Profiling]
-    end
-
-    subgraph GenAI_Layer [3. Persona Generation]
-        G --> H[LLM Synthesis]
-        H --> I[Named Segments]
-        H --> J[Lifestyle Narratives]
-        H --> K[Business Insights]
-    end
-
-    I & J & K --> L[Outcomes: Actionable Personas]
-
-    style Data_Engineering fill:#f9f9f9,stroke:#333
-    style ML_Workflow fill:#e1f5fe,stroke:#01579b
-    style GenAI_Layer fill:#f3e5f5,stroke:#4a148c
-    style L fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-
-
-
+<img width="1736" height="1102" alt="image" src="https://github.com/user-attachments/assets/2a149ea9-75e7-4edb-be1b-21d478e6f8fd" />
