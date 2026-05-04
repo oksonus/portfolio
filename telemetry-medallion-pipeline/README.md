@@ -1,39 +1,56 @@
-# Data Science & AI Portfolio — Olivera Sazos
+# Cloud-Native Telemetry & Workforce Analytics Platform
 
-Senior Data Scientist and AI specialist with 10+ years of experience delivering end-to-end ML, GenAI, and analytics solutions across telecommunications, finance, property, retail, and infrastructure.
+## Overview
+This repository presents a **prototype / case study** of a cloud-native data platform for contact centre analytics.
 
-📍 Sydney, NSW &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/olivera-sazos-0400865b/) &nbsp;|&nbsp; [Portfolio Website](https://oliverasazos.wixsite.com/oneiro)
+It showcases **data architecture and data modelling design** that integrates operational data into a **single, consistent analytics layer**.
 
+The solution includes a **robust API ingestion framework** and is designed to be **scalable and adaptable for implementation on any cloud platform**.
 ---
+## Architecture
 
-## 🗂️ Projects
+The solution follows a layered **Medallion Architecture** with an additional staging step:
 
-| Project | Topics | Tools |
-|---|---|---|
-| [AI Population Segmentation & Personas](./ai_population_segmentation_personas) | Clustering, GenAI, Customer Segmentation | Python, KMeans, LLM, Databricks, MLflow |
+- **Staging / Landing** – temporary storage for newly ingested data (controls processing scope)  
+- **Bronze** – raw, immutable data (auditability)  
+- **Silver** – cleaned and standardised data  
+- **Gold** – business-ready datasets for reporting  
 
-*More projects coming soon: NLP Semantic Search, Image Classification, Churn Prediction, Price Optimisation*
-
+This structure ensures **data quality, traceability, and controlled processing**.
 ---
+## Key Capabilities
 
-## 🔧 Technical Skills
+- **API ingestion framework**  
+  Handles authentication, pagination, token refresh, and incremental extraction  
 
-**ML & AI:** KMeans Clustering · Predictive Modelling · NLP · Semantic Search · GenAI · Computer Vision · Time Series · XGBoost · Neural Networks · Markov Chain
+- **Controlled ingestion (staging layer)**  
+  Ensures only new or relevant data is processed  
 
-**Languages & Tools:** Python · R · SQL · Jupyter · Databricks · MLflow · Spark
+- **Data standardisation**  
+  Cleans and validates inconsistent data  
 
-**Cloud:** AWS (S3, SageMaker, QuickSight) · Azure (Data Factory, Databricks) · GCP (BigQuery)
+- **Time-based conflict resolution**  
+  Ensures consistent, non-overlapping records  
 
-**BI & Visualisation:** Power BI · Tableau · QlikView · QuickSight
+- **Historical tracking**  
+  Preserves changes over time using surrogate keys  
 
+- **Analytics-ready modelling**  
+  Star schema design for efficient and consistent reporting  
 ---
+## Outcome
 
-## 🏢 Industry Experience
+The solution provides a **unified and reliable view of operations**, enabling:
 
-Telco (Optus, NBN Co) · Finance (Westpac, Moneytech) · Property & Infrastructure (Lendlease) · Retail (Hello Molly) · Managed Services (NTT)
-
+- Performance monitoring  
+- Historical trend analysis  
+- Consistent reporting across organisational structures  
 ---
+## Notes
 
-## 📬 Contact
+This is a **prototype implementation** focused on:
+- End-to-end architecture design  
+- Core data engineering logic  
+- Real-world data handling  
 
-**Email:** oksonus@yahoo.com
+It is **cloud-agnostic** and can be extended into a full production solution with orchestration, monitoring, and deployment layers.
