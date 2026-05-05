@@ -6,7 +6,7 @@ An end-to-end data science project bridging **Unsupervised Learning** and **Gene
 ##  Overview
 This project builds a complete segmentation pipeline using demographic datasets. It combines demographic and socio-economic data—including population size, age structure, household size, income levels, and housing costs—to identify and interpret regional trends.
 
-This pipeline solves a common industry problem by using a **Hybrid ML + GenAI approach**:
+This pipeline solves a common industry problem by using a **ML + GenAI approach**:
 *   **Machine Learning:** Identifies hidden structures via KMeans clustering.
 *   **Statistical Profiling:** Summarises the mathematical characteristics of each group.
 *   **Generative AI:** Translates abstract cluster statistics into human-readable, business-friendly personas.
