@@ -10,7 +10,7 @@ Senior Data Scientist and AI specialist with 10+ years of experience delivering 
 
 | Project | Description | Tech |
 |--------|------------|------|
-| [AI Demographic Segmentation & Personas](./ai-persona-segmentation) | Clustering + GenAI pipeline for persona generation | Python, KMeans, LLM, Databricks, MLflow |
+| [AI Persona Segmentation](./ai-persona-segmentation) | Clustering + GenAI pipeline for persona generation | Python, KMeans, LLM, Databricks, MLflow |
 | [Telemetry Medallion Pipeline](./telemetry-medallion-pipeline) | End-to-end data pipeline with Medallion architecture | Spark, Databricks, Delta Lake |
 
 *More projects coming soon: NLP Semantic Search, Image Classification, Churn Prediction, Price Optimisation*
